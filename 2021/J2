@@ -1,24 +1,14 @@
 #CCC J2: 2021
 #Pranjal Nayak
 
-a = int(input())
+bidders = int(input())
 
-bidder = []
-money = []
+name = []
+amount = []
 
-for x in range(a):
-    person = input()
-    bid = int(input())
+for i in range(bidders):
+    name.append(input())
+    amount.append(int(input()))
 
-    bidder.append(person)
-    money.append(bid)
-
-winner = ""
-largest_bid = 0
-
-for b in range(a):
-    if largest_bid < money[b]:
-        largest_bid = money[b]
-        winner = bidder[b]
-
-print(winner)
+highest_price = amount.index(max(amount))
+print(name[highest_price])
