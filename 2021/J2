@@ -1,0 +1,21 @@
+a = int(input())
+
+bidder = []
+money = []
+
+for x in range(N):
+    person = input()
+    bid = int(input())
+
+    bidder.append(person)
+    money.append(bid)
+
+winner = ""
+largest_bid = 0
+
+for b in range(a):
+    if largest_bid < money[b]:
+        largest_bid = money[b]
+        winner = bidder[b]
+
+print(winner)
