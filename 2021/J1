@@ -1,4 +1,8 @@
+#CCC J1: 2021
+#Pranjal Nayak
+
 from math import*
+
 B = int(input())
 
 P =(5 * B)- 400
