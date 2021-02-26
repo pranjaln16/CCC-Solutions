@@ -1,3 +1,6 @@
+#CCC J2: 2021
+#Pranjal Nayak
+
 a = int(input())
 
 bidder = []
