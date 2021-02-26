@@ -6,7 +6,7 @@ a = int(input())
 bidder = []
 money = []
 
-for x in range(N):
+for x in range(a):
     person = input()
     bid = int(input())
 
