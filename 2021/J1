@@ -1,4 +1,5 @@
-#CCC J1: 2021
+#CCC 2021
+#Problem: Boiling Water
 #Pranjal Nayak
 
 from math import*
