@@ -1,3 +1,7 @@
+#CCC 2021: J1 (c++)
+#Problem: Boiling Water
+#Pranjal Nayak
+
 #include <iostream>
 using namespace std;
 
