@@ -1,4 +1,5 @@
-#CCC J2: 2021
+#CCC 2021
+#Problem: Silent Auction
 #Pranjal Nayak
 
 bidders = int(input())
