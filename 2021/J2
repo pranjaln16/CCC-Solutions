@@ -2,14 +2,26 @@
 #Problem: Silent Auction
 #Pranjal Nayak
 
-bidders = int(input())
+a = int(input())
 
-name = []
-amount = []
+bidder = []
+money = []
 
-for i in range(bidders):
-    name.append(input())
-    amount.append(int(input()))
+for i in range(a):
+    person = input()
+    bid = int(input())
 
-highest_price = amount.index(max(amount))
-print(name[highest_price])
+    bidder.append(person)
+    money.append(bid)
+
+
+winner = ""
+largest_bid = 0
+
+for x in range(a):
+
+    if largest_bid < money[x]:
+        largest_bid = money[x]
+        winner = bidder[x]
+
+print(winner)
