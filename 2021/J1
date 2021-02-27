@@ -2,17 +2,15 @@
 #Problem: Boiling Water
 #Pranjal Nayak
 
-from math import*
+b = int(input())
 
-B = int(input())
+p =(5 * b)- 400
+print(p)
 
-P =(5 * B)- 400
-print(P)
-
-if B <100:
+if b <100:
   print("1") 
 
-elif B >100:
+elif b >100:
   print("-1")
 
 else:
